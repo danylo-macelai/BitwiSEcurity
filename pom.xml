@@ -48,6 +48,9 @@
     
     <properties>
         <java.version>17</java.version>
+        <skipUnitTests>false</skipUnitTests>
+        <skipIntegrationTests>false</skipIntegrationTests>
+        <testFailureIgnore>false</testFailureIgnore>
     </properties>
     
     <dependencies>
@@ -93,6 +96,44 @@
                 <configuration>
                     <source>${maven.compiler.release}</source>
                     <target>${maven.compiler.release}</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>integration-tests</id>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                        <configuration>
+                            <skipTests>${skipIntegrationTests}</skipTests>
+                            <forkCount>2</forkCount>
+                            <reuseForks>true</reuseForks>
+                            <redirectTestOutputToFile>true</redirectTestOutputToFile>
+                            <includes>
+                                <include>**/*IntegrationTests.java</include>
+                            </includes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <skipTests>${skipUnitTests}</skipTests>
+                    <testFailureIgnore>${testFailureIgnore}</testFailureIgnore>
+                    <forkCount>2</forkCount>
+                    <reuseForks>true</reuseForks>
+                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
+                    <excludes>
+                        <exclude>**/*IntegrationTests.java</exclude>
+                    </excludes>
                 </configuration>
             </plugin>
         </plugins>

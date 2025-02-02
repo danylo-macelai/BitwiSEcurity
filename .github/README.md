@@ -11,6 +11,10 @@
     <h3>🔗 Links Úteis</h3>
     <div align="left">
 
+   [![Maven - Surefire Plugin](https://img.shields.io/badge/Surefire%20Plugin-Maven-A6C6F6)](https://maven.apache.org/surefire/maven-surefire-plugin/#maven-surefire-plugin)
+   [![Maven - Failsafe Plugin](https://img.shields.io/badge/Failsafe%20Plugin-Maven-A6B6F6)](https://maven.apache.org/surefire/maven-failsafe-plugin/#maven-failsafe-plugin)
+   [![Spring - Testing the Web Layer](https://img.shields.io/badge/Testing%20the%20Web%20Layer-Spring-A6B6F6)](https://spring.io/guides/gs/testing-web)
+   [![Spring - Testing Spring Boot Applications](https://img.shields.io/badge/Testing%20Spring%20Boot%20Applications-Spring-A6B6F6)](https://docs.spring.io/spring-boot/reference/testing/spring-boot-applications.html)
    [![Spring - Developer Tools](https://img.shields.io/badge/Developer%20Tools-Spring-A1E7FF)](https://docs.spring.io/spring-boot/reference/using/devtools.html)
    [![pom - Maven Compiler)](https://img.shields.io/badge/Maven%20Compiler%20Plugin-V3.9.9-FF77FF)](https://maven.apache.org/plugins/maven-compiler-plugin/)
    [![Spring - Initializr)](https://img.shields.io/badge/Initializr-V3.4.4-A1E7FF)](https://start.spring.io/)
