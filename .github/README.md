@@ -11,6 +11,7 @@
     <h3>🔗 Links Úteis</h3>
     <div align="left">
 
+   [![Maven - Resources Plugin](https://img.shields.io/badge/Maven%20Resources%20Plugin-V3.3.1-FFABAB)](https://maven.apache.org/plugins/maven-resources-plugin/index.html)
    [![Maven - Dependency Plugin](https://img.shields.io/badge/Dependency%20Plugin-Maven-FFABAB)](https://maven.apache.org/plugins/maven-dependency-plugin/usage.html)
    [![Maven - Surefire Plugin](https://img.shields.io/badge/Surefire%20Plugin-Maven-A6C6F6)](https://maven.apache.org/surefire/maven-surefire-plugin/#maven-surefire-plugin)
    [![Maven - Failsafe Plugin](https://img.shields.io/badge/Failsafe%20Plugin-Maven-A6B6F6)](https://maven.apache.org/surefire/maven-failsafe-plugin/#maven-failsafe-plugin)
