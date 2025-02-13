@@ -11,6 +11,10 @@
     <h3>🔗 Links Úteis</h3>
     <div align="left">
 
+   [![tools - Project Lombok Download](https://img.shields.io/badge/Project%20Lombok-Download-FFC3A0)](https://projectlombok.org/download)
+   [![tools - Project Lombok Setup Eclipse](https://img.shields.io/badge/Project%20Lombok--Setup-Eclipse-B2F2BB)](https://projectlombok.org/setup/eclipse)
+   [![Maven - Project Lombok Setup Maven](https://img.shields.io/badge/Project%20Lombok--Setup-Maven-FFF5B7)](https://projectlombok.org/setup/maven)
+   [![Features - Project Lombok Features](https://img.shields.io/badge/Project%20Lombok-Features-FFB3E6)](https://projectlombok.org/features/)
    [![Maven - Resources Plugin](https://img.shields.io/badge/Maven%20Resources%20Plugin-V3.3.1-FFABAB)](https://maven.apache.org/plugins/maven-resources-plugin/index.html)
    [![Maven - Dependency Plugin](https://img.shields.io/badge/Dependency%20Plugin-Maven-FFABAB)](https://maven.apache.org/plugins/maven-dependency-plugin/usage.html)
    [![Maven - Surefire Plugin](https://img.shields.io/badge/Surefire%20Plugin-Maven-A6C6F6)](https://maven.apache.org/surefire/maven-surefire-plugin/#maven-surefire-plugin)
