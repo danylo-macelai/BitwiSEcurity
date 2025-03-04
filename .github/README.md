@@ -11,6 +11,10 @@
     <h3>🔗 Links Úteis</h3>
     <div align="left">
 
+   [![Spring - Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-Spring-E0BBE4)](https://docs.spring.io/spring-data/jpa/reference/jpa.html)
+   [![Spring - jpa.java-config](https://img.shields.io/badge/jpa.java-config-FFABAB)](https://docs.spring.io/spring-data/jpa/reference/repositories/create-instances.html#jpa.java-config)
+   [![H2 - Database](https://img.shields.io/badge/Database-H2-FFB6C1)](https://www.h2database.com/html/installation.html)
+   [![Hibernate - Domain Model](https://img.shields.io/badge/Domain%20Model-Hibernate-FF77FF)](https://docs.jboss.org/hibernate/orm/current/userguide/html_single/Hibernate_User_Guide.html#domain-model) 
    [![Spring - Servlet Web Applications](https://img.shields.io/badge/Web-Spring-75F6C5)](https://docs.spring.io/spring-boot/reference/web/servlet.html)
    [![tools - Project Lombok Download](https://img.shields.io/badge/Project%20Lombok-Download-FFC3A0)](https://projectlombok.org/download)
    [![tools - Project Lombok Setup Eclipse](https://img.shields.io/badge/Project%20Lombok--Setup-Eclipse-B2F2BB)](https://projectlombok.org/setup/eclipse)
