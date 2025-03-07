@@ -11,6 +11,9 @@
     <h3>🔗 Links Úteis</h3>
     <div align="left">
 
+   [![mozilla - Bitwise_AND](https://img.shields.io/badge/Bitwise_AND-Mozilla-FFB6C1)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND)
+   [![mozilla - Bitwise_OR](https://img.shields.io/badge/Bitwise_OR-Mozilla-FF77FF)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_OR )
+   [![Oracle - Bitwise Operators](https://img.shields.io/badge/Bitwise%20Operators-Oracle-A1E7FF)](https://docs.oracle.com/cd/E19253-01/817-6223/chp-typeopexpr-7/index.html)
    [![Spring - Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-Spring-E0BBE4)](https://docs.spring.io/spring-data/jpa/reference/jpa.html)
    [![Spring - jpa.java-config](https://img.shields.io/badge/jpa.java-config-FFABAB)](https://docs.spring.io/spring-data/jpa/reference/repositories/create-instances.html#jpa.java-config)
    [![H2 - Database](https://img.shields.io/badge/Database-H2-FFB6C1)](https://www.h2database.com/html/installation.html)
