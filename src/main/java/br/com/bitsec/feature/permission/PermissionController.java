@@ -68,7 +68,7 @@ class PermissionController {
      */
     @PostMapping(value = "/{username:\\w+}/grant", consumes = APPLICATION_JSON_VALUE, produces = APPLICATION_JSON_VALUE)
     HttpEntity<Void> grant(
-            @PathVariable final String username,
+            @PathVariable("username") final String username,
             @RequestBody final PermissionRequest permissionRequest) {
         log.info("Concedendo permissões {} para o usuário '{}'", permissionRequest.flags(), username);
         var user = userService.findUser(username);
@@ -86,7 +86,7 @@ class PermissionController {
      */
     @PostMapping(value = "/{username:\\w+}/revoke", consumes = APPLICATION_JSON_VALUE, produces = APPLICATION_JSON_VALUE)
     HttpEntity<Void> revoke(
-            @PathVariable final String username,
+            @PathVariable("username") final String username,
             @RequestBody final PermissionRequest permissionRequest) {
         log.info("Revogando permissões {} do usuário '{}'", permissionRequest.flags(), username);
         var user = userService.findUser(username);

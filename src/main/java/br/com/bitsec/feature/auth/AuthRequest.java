@@ -21,31 +21,31 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package br.com.bitsec.feature.permission;
+package br.com.bitsec.feature.auth;
 
 import java.io.Serializable;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 /**
- * DTO utilizado para representar as permissões associadas a um usuário no sistema.
+ * DTO que representa a requisição de autenticação de um usuário.
  *
  * <p>
- * Este DTO contém um array de permissões, onde cada permissão é representada por um valor da enumeração
- * {@link Permission}. A enumeração {@link Permission} define as permissões disponíveis, como a capacidade de criar
- * pedidos, visualizar pedidos, entre outras ações específicas.
+ * Esta classe é utilizada para transportar as credenciais de autenticação — nome de usuário e senha — fornecidas pelo
+ * cliente no momento do login. Serve como estrutura de dados para endpoints de autenticação, garantindo a transferência
+ * segura e estruturada das informações necessárias.
  * </p>
  *
  * <p>
- * Este modelo permite a atribuição de múltiplas permissões a um usuário através da especificação de uma lista de
- * valores, possibilitando a combinação de permissões utilizando operações bit a bit. Essa abordagem facilita o controle
- * de acesso e a definição de quais funcionalidades o usuário poderá acessar.
+ * Esta classe é imutável e serializável, adequada para utilização em ambientes distribuídos.
  * </p>
+ *
+ * @param username Nome de usuário utilizado para autenticação.
+ * @param password Senha correspondente ao nome de usuário informado.
  */
-@JsonIgnoreProperties(ignoreUnknown = true)
-record PermissionRequest(
+record AuthRequest(
 
-        Permission[] flags //
+        String username,
+
+        String password
 
 ) implements Serializable {
 }

@@ -11,6 +11,8 @@
     <h3>🔗 Links Úteis</h3>
     <div align="left">
 
+   [![Spring - oauth2](https://img.shields.io/badge/OAuth%202.0%20Resource%20Server%20JWT-v6.4.5-FFB6C1)](https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html)
+   [![Spring - Security](https://img.shields.io/badge/Spring%20Security-v6.4.5-FFB6C1)](https://docs.spring.io/spring-security/reference/index.html)
    [![mozilla - Bitwise_AND](https://img.shields.io/badge/Bitwise_AND-Mozilla-FFB6C1)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND)
    [![mozilla - Bitwise_OR](https://img.shields.io/badge/Bitwise_OR-Mozilla-FF77FF)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_OR )
    [![Oracle - Bitwise Operators](https://img.shields.io/badge/Bitwise%20Operators-Oracle-A1E7FF)](https://docs.oracle.com/cd/E19253-01/817-6223/chp-typeopexpr-7/index.html)
